@@ -1,0 +1,524 @@
+Country,Year,Status,Life expectancy ,Adult Mortality
+Australia,2015,Developed,82.8,59.0
+Australia,2014,Developed,82.7,6.0
+Australia,2013,Developed,82.5,61.0
+Australia,2012,Developed,82.3,61.0
+Australia,2011,Developed,82.0,63.0
+Australia,2010,Developed,81.9,64.0
+Australia,2009,Developed,81.7,66.0
+Australia,2008,Developed,81.3,66.0
+Australia,2007,Developed,81.3,66.0
+Australia,2006,Developed,81.2,66.0
+Australia,2005,Developed,81.0,67.0
+Australia,2004,Developed,86.0,69.0
+Australia,2003,Developed,83.0,71.0
+Austria,2015,Developed,81.5,65.0
+Austria,2014,Developed,81.4,66.0
+Austria,2013,Developed,81.1,68.0
+Austria,2012,Developed,88.0,7.0
+Austria,2011,Developed,88.0,73.0
+Austria,2010,Developed,84.0,75.0
+Austria,2009,Developed,82.0,77.0
+Austria,2008,Developed,84.0,76.0
+Austria,2007,Developed,81.0,8.0
+Belgium,2015,Developed,81.1,74.0
+Belgium,2014,Developed,89.0,76.0
+Belgium,2013,Developed,87.0,77.0
+Belgium,2012,Developed,83.0,78.0
+Belgium,2011,Developed,83.0,8.0
+Canada,2015,Developing,82.2,64.0
+Canada,2014,Developing,82.0,65.0
+Canada,2013,Developing,81.8,67.0
+Canada,2012,Developing,81.6,68.0
+Canada,2011,Developing,81.5,68.0
+Canada,2010,Developing,81.2,7.0
+Canada,2009,Developing,81.0,72.0
+Canada,2008,Developing,87.0,74.0
+Canada,2007,Developing,85.0,74.0
+Canada,2006,Developing,85.0,75.0
+Canada,2005,Developing,81.0,76.0
+Chile,2015,Developing,85.0,82.0
+Chile,2014,Developing,83.0,83.0
+Chile,2013,Developing,81.0,84.0
+Cook Islands,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Cyprus,2015,Developed,85.0,52.0
+Cyprus,2014,Developed,83.0,53.0
+Cyprus,2013,Developed,81.0,54.0
+Denmark,2015,Developed,86.0,71.0
+Denmark,2014,Developed,84.0,73.0
+Denmark,2013,Developed,81.0,75.0
+Dominica,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Finland,2015,Developing,81.1,76.0
+Finland,2014,Developing,89.0,78.0
+Finland,2013,Developing,87.0,79.0
+Finland,2012,Developing,84.0,82.0
+Finland,2011,Developing,83.0,86.0
+France,2015,Developing,82.4,78.0
+France,2014,Developing,82.2,79.0
+France,2013,Developing,82.0,81.0
+France,2012,Developing,81.5,83.0
+France,2011,Developing,81.7,83.0
+France,2010,Developing,81.3,86.0
+France,2009,Developing,81.1,88.0
+France,2008,Developing,89.0,88.0
+France,2007,Developing,89.0,89.0
+France,2006,Developing,86.0,92.0
+France,2005,Developing,81.0,93.0
+France,2004,Developing,82.0,94.0
+Germany,2015,Developed,81.0,68.0
+Germany,2014,Developed,89.0,69.0
+Germany,2013,Developed,86.0,71.0
+Germany,2012,Developed,86.0,71.0
+Germany,2011,Developed,85.0,74.0
+Germany,2010,Developed,81.0,76.0
+Greece,2015,Developing,81.0,72.0
+Greece,2014,Developing,88.0,73.0
+Greece,2013,Developing,86.0,74.0
+Greece,2012,Developing,84.0,76.0
+Greece,2011,Developing,85.0,76.0
+Greece,2010,Developing,83.0,76.0
+Iceland,2015,Developed,82.7,49.0
+Iceland,2014,Developed,82.5,49.0
+Iceland,2013,Developed,82.4,5.0
+Iceland,2012,Developed,82.5,5.0
+Iceland,2011,Developed,82.1,51.0
+Iceland,2010,Developed,81.8,53.0
+Iceland,2009,Developed,81.6,55.0
+Iceland,2008,Developed,81.4,58.0
+Iceland,2007,Developed,81.3,59.0
+Iceland,2006,Developed,81.1,61.0
+Iceland,2005,Developed,81.0,62.0
+Iceland,2004,Developed,88.0,65.0
+Iceland,2003,Developed,87.0,65.0
+Iceland,2002,Developed,84.0,7.0
+Ireland,2015,Developed,81.4,64.0
+Ireland,2014,Developed,81.2,66.0
+Ireland,2013,Developed,81.0,67.0
+Ireland,2012,Developed,85.0,69.0
+Ireland,2011,Developed,84.0,7.0
+Ireland,2010,Developed,86.0,68.0
+Israel,2015,Developing,82.5,58.0
+Israel,2014,Developing,82.2,6.0
+Israel,2013,Developing,82.1,61.0
+Israel,2012,Developing,81.8,6.0
+Israel,2011,Developing,81.8,61.0
+Israel,2010,Developing,81.7,61.0
+Israel,2009,Developing,81.5,63.0
+Israel,2008,Developing,81.0,65.0
+Israel,2007,Developing,84.0,68.0
+Israel,2006,Developing,84.0,68.0
+Israel,2004,Developing,81.0,69.0
+Italy,2015,Developed,82.7,56.0
+Italy,2014,Developed,82.5,57.0
+Italy,2013,Developed,82.3,58.0
+Italy,2012,Developed,82.0,6.0
+Italy,2011,Developed,82.0,6.0
+Italy,2010,Developed,81.8,6.0
+Italy,2009,Developed,81.6,61.0
+Italy,2008,Developed,81.5,61.0
+Italy,2007,Developed,81.3,63.0
+Italy,2006,Developed,81.2,65.0
+Italy,2005,Developed,88.0,66.0
+Italy,2004,Developed,89.0,66.0
+Japan,2015,Developed,83.7,55.0
+Japan,2014,Developed,83.5,57.0
+Japan,2013,Developed,83.5,56.0
+Japan,2012,Developed,83.3,58.0
+Japan,2011,Developed,82.5,64.0
+Japan,2010,Developed,83.0,62.0
+Japan,2009,Developed,83.0,64.0
+Japan,2008,Developed,82.7,66.0
+Japan,2007,Developed,82.6,67.0
+Japan,2006,Developed,82.4,68.0
+Japan,2005,Developed,82.0,69.0
+Japan,2004,Developed,82.1,68.0
+Japan,2003,Developed,81.9,7.0
+Japan,2002,Developed,81.8,7.0
+Japan,2001,Developed,81.5,72.0
+Japan,2000,Developed,81.1,74.0
+Luxembourg,2015,Developed,82.0,63.0
+Luxembourg,2014,Developed,81.7,65.0
+Luxembourg,2013,Developed,81.4,68.0
+Luxembourg,2012,Developed,81.1,7.0
+Luxembourg,2011,Developed,88.0,72.0
+Luxembourg,2010,Developed,86.0,73.0
+Luxembourg,2009,Developed,83.0,76.0
+Malta,2015,Developed,81.7,54.0
+Malta,2014,Developed,81.4,55.0
+Malta,2013,Developed,81.1,57.0
+Malta,2012,Developed,81.0,58.0
+Malta,2011,Developed,87.0,59.0
+Malta,2010,Developed,83.0,62.0
+Malta,2009,Developed,82.0,63.0
+Marshall Islands,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Monaco,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Nauru,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Netherlands,2015,Developed,81.9,57.0
+Netherlands,2014,Developed,81.7,58.0
+Netherlands,2013,Developed,81.4,6.0
+Netherlands,2012,Developed,81.1,62.0
+Netherlands,2011,Developed,81.1,63.0
+Netherlands,2010,Developed,88.0,64.0
+Netherlands,2009,Developed,86.0,65.0
+Netherlands,2008,Developed,83.0,68.0
+Netherlands,2007,Developed,82.0,68.0
+New Zealand,2015,Developed,81.6,66.0
+New Zealand,2014,Developed,81.5,67.0
+New Zealand,2013,Developed,81.3,69.0
+New Zealand,2012,Developed,81.1,7.0
+New Zealand,2011,Developed,86.0,72.0
+New Zealand,2010,Developed,89.0,71.0
+New Zealand,2009,Developed,85.0,73.0
+New Zealand,2008,Developed,81.0,75.0
+New Zealand,2007,Developed,81.0,76.0
+Niue,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Norway,2015,Developed,81.8,59.0
+Norway,2014,Developed,81.6,61.0
+Norway,2013,Developed,81.5,62.0
+Norway,2012,Developed,81.3,61.0
+Norway,2011,Developed,81.1,67.0
+Norway,2010,Developed,81.0,66.0
+Norway,2009,Developed,89.0,67.0
+Norway,2008,Developed,86.0,67.0
+Norway,2007,Developed,85.0,67.0
+Norway,2006,Developed,84.0,7.0
+Norway,2005,Developed,81.0,73.0
+Palau,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Portugal,2015,Developed,81.1,76.0
+Portugal,2014,Developed,89.0,78.0
+Portugal,2013,Developed,86.0,79.0
+Portugal,2012,Developed,83.0,81.0
+Portugal,2011,Developed,82.0,85.0
+Republic of Korea,2015,Developing,82.3,64.0
+Republic of Korea,2014,Developing,82.0,66.0
+Republic of Korea,2013,Developing,81.7,68.0
+Republic of Korea,2012,Developing,81.2,69.0
+Republic of Korea,2011,Developing,81.1,72.0
+Republic of Korea,2010,Developing,87.0,74.0
+Republic of Korea,2009,Developing,86.0,75.0
+Republic of Korea,2008,Developing,83.0,75.0
+Saint Kitts and Nevis,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+San Marino,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+Singapore,2015,Developed,83.1,55.0
+Singapore,2014,Developed,82.9,56.0
+Singapore,2013,Developed,82.7,57.0
+Singapore,2012,Developed,82.5,59.0
+Singapore,2011,Developed,82.2,6.0
+Singapore,2010,Developed,82.0,61.0
+Singapore,2009,Developed,81.7,62.0
+Singapore,2008,Developed,81.4,64.0
+Singapore,2007,Developed,81.1,65.0
+Singapore,2006,Developed,87.0,66.0
+Singapore,2005,Developed,82.0,69.0
+Slovenia,2015,Developed,88.0,74.0
+Slovenia,2014,Developed,87.0,76.0
+Slovenia,2013,Developed,85.0,78.0
+Slovenia,2012,Developed,82.0,81.0
+Spain,2015,Developed,82.8,56.0
+Spain,2014,Developed,82.6,58.0
+Spain,2013,Developed,82.4,6.0
+Spain,2012,Developed,82.0,61.0
+Spain,2011,Developed,82.1,63.0
+Spain,2010,Developed,81.9,64.0
+Spain,2009,Developed,81.6,66.0
+Spain,2008,Developed,81.3,7.0
+Spain,2007,Developed,89.0,72.0
+Spain,2006,Developed,88.0,73.0
+Spain,2005,Developed,81.0,77.0
+Spain,2004,Developed,81.0,79.0
+Sweden,2015,Developed,82.4,53.0
+Sweden,2014,Developed,82.3,54.0
+Sweden,2013,Developed,81.9,57.0
+Sweden,2012,Developed,81.7,57.0
+Sweden,2011,Developed,81.7,58.0
+Sweden,2010,Developed,81.5,58.0
+Sweden,2009,Developed,81.4,62.0
+Sweden,2008,Developed,81.1,62.0
+Sweden,2007,Developed,89.0,63.0
+Sweden,2006,Developed,88.0,64.0
+Sweden,2005,Developed,85.0,66.0
+Sweden,2004,Developed,83.0,7.0
+Sweden,2003,Developed,82.0,69.0
+Switzerland,2015,Developed,83.4,49.0
+Switzerland,2014,Developed,83.2,51.0
+Switzerland,2013,Developed,83.0,52.0
+Switzerland,2012,Developed,82.7,54.0
+Switzerland,2011,Developed,82.6,55.0
+Switzerland,2010,Developed,82.3,57.0
+Switzerland,2009,Developed,82.1,6.0
+Switzerland,2008,Developed,82.0,6.0
+Switzerland,2007,Developed,81.7,63.0
+Switzerland,2006,Developed,81.5,65.0
+Switzerland,2005,Developed,81.1,66.0
+Switzerland,2004,Developed,81.0,69.0
+Switzerland,2003,Developed,85.0,72.0
+Switzerland,2002,Developed,84.0,74.0
+Switzerland,2001,Developed,82.0,75.0
+Tuvalu,2013,Developing,"<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>","<bound method NDFrame._add_numeric_operations.<locals>.mean of           Country  Year      Status  Life expectancy   Adult Mortality  infant deaths  ...         GDP  Population   thinness  1-19 years   thinness 5-9 years  Income composition of resources  Schooling
+0     Afghanistan  2015  Developing              65.0            263.0             62  ...  584.259210  33736494.0                   17.2                 17.3                            0.479       10.1
+1     Afghanistan  2014  Developing              59.9            271.0             64  ...  612.696514    327582.0                   17.5                 17.5                            0.476       10.0
+2     Afghanistan  2013  Developing              59.9            268.0             66  ...  631.744976  31731688.0                   17.7                 17.7                            0.470        9.9
+3     Afghanistan  2012  Developing              59.5            272.0             69  ...  669.959000   3696958.0                   17.9                 18.0                            0.463        9.8
+4     Afghanistan  2011  Developing              59.2            275.0             71  ...   63.537231   2978599.0                   18.2                 18.2                            0.454        9.5
+...           ...   ...         ...               ...              ...            ...  ...         ...         ...                    ...                  ...                              ...        ...
+2933     Zimbabwe  2004  Developing              44.3            723.0             27  ...  454.366654  12777511.0                    9.4                  9.4                            0.407        9.2
+2934     Zimbabwe  2003  Developing              44.5            715.0             26  ...  453.351155  12633897.0                    9.8                  9.9                            0.418        9.5
+2935     Zimbabwe  2002  Developing              44.8             73.0             25  ...   57.348340    125525.0                    1.2                  1.3                            0.427       10.0
+2936     Zimbabwe  2001  Developing              45.3            686.0             25  ...  548.587312  12366165.0                    1.6                  1.7                            0.427        9.8
+2937     Zimbabwe  2000  Developing              46.0            665.0             24  ...  547.358878  12222251.0                   11.0                 11.2                            0.434        9.8
+
+[2938 rows x 22 columns]>"
+United Kingdom of Great Britain and Northern Ireland,2015,Developed,81.2,69.0
+United Kingdom of Great Britain and Northern Ireland,2014,Developed,81.0,71.0
+United Kingdom of Great Britain and Northern Ireland,2013,Developed,87.0,72.0
+United Kingdom of Great Britain and Northern Ireland,2012,Developed,86.0,72.0
+United Kingdom of Great Britain and Northern Ireland,2011,Developed,86.0,74.0
+United Kingdom of Great Britain and Northern Ireland,2010,Developed,82.0,77.0
+United Kingdom of Great Britain and Northern Ireland,2009,Developed,81.0,78.0
