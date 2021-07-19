@@ -1,0 +1,23 @@
+DAY 1
+
+Assignment 1 (NumPy):
+
+Suppose PDSC team made a Nepali Tesla car and  were testing in main road. 
+It is on the way to Thapathali from Pulchowk. It is trying to detect number plate which he should follow as per the instruction. 
+The number plate image was taken and was converted to array A and preprocessed with NumPy to finally detect the numbers.
+Create a random numpy array A with shape (2, 4) and another array B with shape (4, 2). 
+Both containing integer values in range 20 to 50.
+Compute the dot product between those array represented by C and also find sum of elements for each array.
+If sum_of_A is greater or equal to that of sum_of_B, compute transpose of C and if it's false, 
+multiply each element of array C by 9.
+Display the result.
+
+
+Assignment 2 (Pandas):
+Load the data from link: https://raw.githubusercontent.com/pdscorg/Data/main/Life%20Expectancy%20Data.csv in pandas dataframe.
+Check if it contains missing value.
+Try, dropping the rows containing missing values.
+If you found more than 200 rows being dropped, load the data again and fill the missing values with mean.
+Manipulate the dataframe by keeping only the data having Life expectancy above 80.
+Take first 5 columns of the dataframe and save it to csv file
+(Submit the csv file and the notebook/python file)
