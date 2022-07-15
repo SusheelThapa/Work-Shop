@@ -169,8 +169,6 @@ print("Hello " + name);
 
    `break` is used to break out of the loop.
 
-   `continue` is used to skip the remaining part of the loop
-
    ```python
    for i in range(10):
    	print("before")
@@ -178,6 +176,8 @@ print("Hello " + name);
    	continue
    	print("after")
    ```
+
+   `continue` is used to skip the remaining part of the loop
 
    ```python
    for i in range(10):
@@ -189,11 +189,31 @@ print("Hello " + name);
 
 7. List, Tuples, Dictionaries and Sets
 
+- [List] is a list of things
+- {Dictionary} is a mapping to from a hashable thing to another thing
+- (Tuples) are immutable lists
+- {Set} is like the set from set theory
+
 8. List and Tuple operations
+
+Slicing : Same as that of string slicing
+
+```python
+mylist[start:stop:step]
+```
+
+Indexing : Same as string `["a", "b", "c"][1]` gives `"b"`
+
+Other operations are:
+
+`append(newitems)`,`insert(index, item)`, `remove(item)`, `pop()`, `reverse()`, `len(mylist)`
 
 9. is vs ==
 
-10. Dictionary
+**is** checks if the object are the same in memory
+**==** is for checking if the object have the same value.
+
+11. Dictionary
 
     1. Creating Dictionary
 
@@ -210,11 +230,27 @@ print("Hello " + name);
 
     2. Dictionary Operations
 
-    3. Other Dictionary Operations
+       | Method     | Explanation                                               |
+       | ---------- | --------------------------------------------------------- |
+       | `get()`    | returns value of specified key                            |
+       | `items()`  | returns the list containing tuple for each key value pair |
+       | `keys()`   | returns a lsit containing the dictionary's keys           |
+       | `values()` | returns a list of all the values in the dictionary.       |
+       | `pop()`    | remove the element with the specified key                 |
 
-11. Sets
+12. Sets
 
     1. Creating Sets
     2. Set operations
 
-12. Function and Scope
+       - `x1 | x2 or x1.union(x2)`: Union
+       - `x1.intersection(x2)`: Intersection
+       - `x1.isdisjoint(x2)`
+       - `x1.issubset(x2)`
+       - `x1.issuperset(x2)`
+       - `x.add(<ele>)`
+       - `x.remove<ele>`
+       - `x.pop()`
+       - `x.clear()`
+
+13. Function and Scope
